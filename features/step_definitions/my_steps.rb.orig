@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Given(/^entre al juego$/) do
   visit '/'
 end
@@ -12,8 +13,7 @@ end
 
 When(/^oprima el boton "(.*?)"$/) do |button|
   click_button(button)
-end
-
+=======
 Given(/^entre al seleccionar el rival$/) do
   visit '/rival'
 end
@@ -24,4 +24,5 @@ end
 
 Then(/^debo ver "(.*?)"$/) do |arg1|
   last_response.body.should =~ /Nestor vs Computador/m
+>>>>>>> a00f338bd8609d72e19fb249842668a52d6b0bf4
 end

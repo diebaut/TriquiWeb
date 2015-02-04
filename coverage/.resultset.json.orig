@@ -1,6 +1,7 @@
 {
   "Cucumber Features": {
     "coverage": {
+<<<<<<< HEAD
       "/home/kleer/csd/TriquiWeb/app.rb": [
         1,
         null,
@@ -8,13 +9,11 @@
         2,
         null,
         null,
+=======
+      "/home/kleer/csd/repoTriquiweb/TriquiWeb/app.rb": [
         1,
         1,
-        2,
         null,
-        null,
-        1,
-        1,
         1,
         null,
         null,
@@ -34,6 +33,7 @@
         1,
         null
       ],
+<<<<<<< HEAD
       "/home/kleer/csd/TriquiWeb/features/step_definitions/my_steps.rb": [
         1,
         2,
@@ -41,6 +41,9 @@
         null,
         1,
         3,
+=======
+      "/home/kleer/csd/repoTriquiweb/TriquiWeb/lib/jugador.rb": [
+        1,
         null,
         1,
         null,

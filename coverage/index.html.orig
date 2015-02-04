@@ -14,18 +14,30 @@
       <img src="./assets/0.7.1/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
+<<<<<<< HEAD
       <div class="timestamp">Generated <abbr class="timeago" title="2015-02-04T12:43:13-02:00">2015-02-04T12:43:13-02:00</abbr></div>
+=======
+      <div class="timestamp">Generated <abbr class="timeago" title="2015-02-04T09:41:02-05:00">2015-02-04T09:41:02-05:00</abbr></div>
+>>>>>>> a00f338bd8609d72e19fb249842668a52d6b0bf4
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
+<<<<<<< HEAD
     (<span class="covered_percent"><span class="red">75.0%</span></span>
      covered at
      <span class="covered_strength">
        <span class="green">
          1.03
+=======
+    (<span class="covered_percent"><span class="red">76.47%</span></span>
+     covered at
+     <span class="covered_strength">
+       <span class="red">
+         0.83
+>>>>>>> a00f338bd8609d72e19fb249842668a52d6b0bf4
        </span>
     </span> hits/line)
   </h2>
@@ -181,6 +193,7 @@
         <li class="never" data-hits="" data-linenumber="3">
 >>>>>>> a00f338bd8609d72e19fb249842668a52d6b0bf4
           
+          
           <code class="ruby"></code>
         </li>
       
@@ -201,6 +214,8 @@
           <code class="ruby">	erb :home</code>
         </li>
       
+        <li class="never" data-hits="" data-linenumber="5">
+=======
         <li class="never" data-hits="" data-linenumber="5">
           
           
@@ -246,6 +261,24 @@
         <li class="never" data-hits="" data-linenumber="10">
 =======
         <li class="never" data-hits="" data-linenumber="8">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="9">
+          <span class="hits">1</span>
+          
+          <code class="ruby">get '/rival' do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="10">
+          <span class="hits">1</span>
+          
+          <code class="ruby">     erb :rival    </code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
           
           
           <code class="ruby">end</code>
