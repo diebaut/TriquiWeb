@@ -4,7 +4,7 @@ class Jugador
 	
 
     def status?
-		nombre+" vs Computador"
+		nombre+" vs "+nombre
 	end
 
 end

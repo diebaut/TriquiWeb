@@ -1,7 +1,7 @@
 require './lib/jugador'
 
-describe "juador" do
-  it "si el nombre es Nestor y empezo el juego, deberia ver 'Nestor vs Computador'" do
+describe "jugador" do
+  it "si el nombre es Nestor y empezo el juego, deberia ver 'Nestor vs Nestor'" do
     
   #arrange
   jugador= Jugador.new
@@ -11,7 +11,7 @@ describe "juador" do
 	result =jugador.status?
 
   #assert
-	result.should=="Nestor vs Computador"
+	result.should=="Nestor vs Nestor"
   end
 end
 
