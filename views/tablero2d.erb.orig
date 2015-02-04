@@ -1,20 +1,22 @@
 <html>
 	<head>
-
+<<<<<<< HEAD
 <style>
 input { width:20px; margin:10px;}
 </style>
 </head>
 	<form action="/tablero">
+=======
 		<style>
 			td { border:1px solid black}
 		</style>
 	</head>
-
+>>>>>>> 464d9493d2460e6f783fa30cd55cc66a51d2d2d1
 	<body>
 		<title>TriquiWeb</title>
      	<label>Bienvenido <%=@@Nombre%> </label>
 		<h1><%=@@Nombre%> vs Computador</h1>
+<<<<<<< HEAD
  <table>
         <tr><td><input type="text" name="c1"/><input type="text" name="c2"/><input type="text" name="c3"/> </td></tr>
         <tr><td><input type="text" name="c4/"><input type="text" name="c5"/><input type="text" name="c6"/> </td></tr>
@@ -24,5 +26,12 @@ input { width:20px; margin:10px;}
 
 <input type="hidden" name="Nombre" id="Nombre" value="<%=@@Nombre%>" />
 		</form>
+=======
+		<table style="border:1px solid black">
+			<tr><td><a href="#">X</a><a href="#">X</a><a href="#">X</a></td></tr>
+			<tr><td><a href="#">X</a><a href="#">X</a><a href="#">X</a></td></tr>
+			<tr><td><a href="#">X</a><a href="#">X</a><a href="#">X</a></td></tr>
+		</table>
+>>>>>>> 464d9493d2460e6f783fa30cd55cc66a51d2d2d1
 	</body>
 <html>

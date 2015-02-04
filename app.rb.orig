@@ -2,26 +2,22 @@ require 'sinatra'
 require './lib/jugador'
 
 get '/' do
-<<<<<<< HEAD
 	erb :home
 end
 
-get '/main' do
-	@@Nombre = params["Nombre"]
-	erb :main
-=======
-end
 
 
 get '/rival' do
-     erb :rival    
+     @@Nombre = params["Nombre"]
+     erb :tablero2d
 end
 
 
 get '/tablero' do
-		jugador = Jugador.new
-		jugador.nombre = "Nestor"
-		@@nombre = jugador.nombre
+<<<<<<< HEAD
      erb :tablero2d   
->>>>>>> a00f338bd8609d72e19fb249842668a52d6b0bf4
+=======
+       @@Nombre = params["Nombre"]
+     erb :tablero2d
+>>>>>>> 464d9493d2460e6f783fa30cd55cc66a51d2d2d1
 end

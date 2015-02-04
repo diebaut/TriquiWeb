@@ -9,10 +9,11 @@ end
 
 get '/rival' do
      @@Nombre = params["Nombre"]
-     erb :rival    
+     erb :tablero2d
 end
 
 
 get '/tablero' do
-     erb :tablero2d   
+       @@Nombre = params["Nombre"]
+     erb :tablero2d
 end
