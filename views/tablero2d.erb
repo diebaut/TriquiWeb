@@ -1,17 +1,20 @@
 <html>
 	<head>
 <style>
-td { border:1px solid black}
+input { width:20px; margin:10px;}
 </style>
 </head>
-
+	<form action="/tablero">
 	<body>
 		<h1><%=@@Nombre%> vs Computador</h1>
-<table style="border:1px solid black">
-	<tr><td><a href="#">X</a><a href="#">X</a><a href="#">X</a></td></tr>
-	<tr><td><a href="#">X</a><a href="#">X</a><a href="#">X</a></td></tr>
-	<tr><td><a href="#">X</a><a href="#">X</a><a href="#">X</a></td></tr>
-</table>
-		
+ <table>
+        <tr><td><input type="text" name="c1"/><input type="text" name="c2"/><input type="text" name="c3"/> </td></tr>
+        <tr><td><input type="text" name="c4/"><input type="text" name="c5"/><input type="text" name="c6"/> </td></tr>
+        <tr><td><input type="text" name="c7"><input type="text" name="c8"/><input type="text" name="c9"/> </td></tr>
+    </table>
+	<input type="submit" style="width:100px;" value="Jugar"/>
+
+<input type="hidden" name="Nombre" id="Nombre" value="<%=@@Nombre%>" />
+		</form>
 	</body>
 <html>

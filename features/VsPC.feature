@@ -8,4 +8,11 @@ Scenario:
 	When ingrese "Nestor" en el campo "Nombre"
 	And oprima el boton "Acceder gratuitamente"
 	And oprimir el boton "computador"
-	Then debo ver "Nestor vs Computador"
+	And coloco jugada "X" en una de las casilla
+	And presiono el boton "Jugar"
+	Then debo ver jugada computador "0"	
+
+
+
+
+

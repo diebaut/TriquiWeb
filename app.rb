@@ -14,6 +14,5 @@ end
 
 
 get '/tablero' do
-       @@Nombre = params["Nombre"]
      erb :tablero2d   
 end

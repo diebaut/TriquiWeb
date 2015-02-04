@@ -23,3 +23,17 @@ When(/^oprimir el boton "(.*?)"$/) do |arg1|
 end
 
 
+
+When(/^coloco jugada "(.*?)" en una de las casilla$/) do |arg1|
+	fill_in("c1", :with => arg1)
+end
+
+When(/^presiono el boton "(.*?)"$/) do |arg1|
+  click_button("Jugar")
+end
+
+Then(/^debo ver jugada computador "(.*?)"$/) do |arg1|
+  last_response.body.should =~ /#{arg1}/m
+end
+
+
