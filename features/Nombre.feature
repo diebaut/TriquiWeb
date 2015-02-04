@@ -10,6 +10,6 @@ Scenario:
 Scenario:
 	Given entre al juego
 	When ingrese "Diego" en el campo "Nombre"
-	And oprima el boton "Acceder"
+	And oprima el boton "Acceder gratuitamente"
 	Then debo ver "TriquiWeb"
 	And debo ver "Bienvenido Diego"

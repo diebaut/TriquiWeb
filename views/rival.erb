@@ -1,9 +1,11 @@
 <html>
 	<head/>
 	<body>
-		<title>Trique</title>
-		<h1>Nestor:  Selecciona Rival !!!</h1>
+		<title>TriquiWeb</title>
+     	<label>Bienvenido <%=@@Nombre%> </label> 
+<p>selecciona rival</p>
 		<form action = "/tablero">
+			<input type="hidden" name="Nombre" id="Nombre" value="<%=@@Nombre%>" />
 			<input type="submit" id="rival_pc" name="rival_pc" value="Computador">
 		</form>
 	</body>
